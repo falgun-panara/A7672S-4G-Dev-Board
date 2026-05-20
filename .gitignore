@@ -1,0 +1,94 @@
+# Build and Compilation Artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.lib
+*.axf
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.d
+
+# Build Output Directories
+build/
+Build/
+cmake-build*/
+dist/
+*.out
+compile_out.txt
+makeDepend.mak
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# OS Specific Files
+Thumbs.db
+.DS_Store
+*.lnk
+.directory
+
+# Temporary and Cache Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+*.swp
+.ycm_extra_conf.pyc
+
+# CMake Generated Files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.cmake.user
+CTestTestfile.cmake
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Generated/Temporary Logs
+*.log
+log.txt
+
+# Binary Libraries (keep sources but exclude compiled libraries)
+public_libs/lib/
+sc_lib/*/lib/
+public_libs/miracl/*.a
+public_libs/zlib/*.a
+public_libs/cjson/*.a
+
+# Documentation Build Files (if applicable)
+docs/_build/
+site/
+
+# Environment and Configuration Backups
+*.bak.mak
+*.backup.cmake
+
+# Exclude large compiled kernel images
+kernel/*/images/
+kernel/*/aboot/images/
+
+# GIT files (already tracked by git)
+.gitkeep
+
+# Keep these files (whitelist)
+!README.md
+!LICENSE
+!.gitkeep
