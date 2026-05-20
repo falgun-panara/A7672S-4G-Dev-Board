@@ -73,6 +73,9 @@ public_libs/miracl/*.a
 public_libs/zlib/*.a
 public_libs/cjson/*.a
 
+# Tools and helper binaries
+tools/
+
 # Documentation Build Files (if applicable)
 docs/_build/
 site/
